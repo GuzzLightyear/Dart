@@ -1,0 +1,44 @@
+
+Podemos utilizar as estruturas de 
+if/else para implementar condições em nosso código. 
+Dentro dessa estrutura, temos três partes distintas: o if, o else e as chaves {}.
+
+O if/else é necessário para iniciar a lógica de comparação.
+No parênteses (), é onde inserimos a condição que deve ser avaliada como verdadeira ou falsa (booleana).
+
+Por fim, dentro das chaves {}, escrevemos as ações que serão executadas apenas se a condição for verdadeira.
+
+Quando precisamos criar repetições em nosso código, podemos utilizar o for(). 
+Essa estrutura é composta por três partes principais:
+
+O for é o comando utilizado para iniciar o loop.
+
+No parênteses (), definimos as condições da repetição, que são divididas em 
+três sub-partes: inicialização, condição e pós-loop.
+
+A inicialização é responsável por criar a variável condicional inicial (por exemplo, int i = 0).
+
+A condição é responsável por comparar a variável inicial com a lógica desejada (por exemplo, i < 10).
+
+O pós-loop é a ação que será executada no final de cada repetição e, normalmente, 
+é usada para incrementar a variável inicial (por exemplo, i++).
+
+Quando precisamos criar repetições, mas não temos certeza sobre a quantidade de 
+vezes que serão necessárias, utilizamos o while(). Essa estrutura possui três partes:
+
+O while é o comando utilizado para iniciar a lógica de repetição.
+
+Dentro dos parênteses (), colocamos a condição booleana.
+
+As chaves {} são usadas para delimitar as ações que serão repetidas.
+
+Além disso, o while possui uma variação chamada do{}while(), que nos permite 
+escolher se a condição será verificada antes ou depois da repetição. Essa variação possui quatro partes:
+
+O do é o comando utilizado para iniciar a lógica de repetição.
+
+As chaves {} delimitam as ações que serão repetidas.
+
+O while é o comando que inicia a lógica de condição.
+
+Dentro dos parênteses (), colocamos a condição booleana.

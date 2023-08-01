@@ -1,0 +1,21 @@
+Listas de tipos únicos:
+
+Como não pode haver duas variáveis com mesmo 'nome'(nomeclatura), se cria as listas para armazenar
+estas informações.
+Para não ficar criando várias nomeclaturas para armazenar as coias e informações se cria a lista
+
+List<String> lsitanome = [];
+dentro do <> você define o que ele vai receber no caso da lista nome vai receber apenas 
+texto ou seja string
+
+a lista começa a contar pelo 0 e indo até a quantidade total da sua lista, 
+então para utilizar apenas um nome da lista você colocar entre [] e o item que deseja.
+
+List<String> listanome = ['André','Bruno','Caio','Daniel','Eduardo','Felipe'];
+print(listanome[0])
+ele vai mostrar o resultado André.
+
+para ter as funções da lista apenas colocar um . após a lista que deseja ter no nosso caso listanome
+
+(listanome.)// irá abrir um lek de opções para trabalhar com ela.
+

@@ -1,0 +1,20 @@
+if == se faz uma coisa
+else == senão faz outra coisa
+
+
+if(condição){ação}
+else {ação}
+
+exemplo 01:
+if (idade >= 18) {maiorDeIdade = true;} 
+else {maiorDeIdade = false;}
+
+exemplo 02:
+if (idade >= 18) {
+    maiorDeIdade = true;
+  } else {
+    maiorDeIdade = false;
+  }
+
+  As condições apenas vale se for true or false
+  Não podemos colocar números, inteiros, fracionados e strings apenas condições booleanas.

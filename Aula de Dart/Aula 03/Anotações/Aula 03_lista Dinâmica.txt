@@ -1,0 +1,9 @@
+Lista Dinâmica:
+Uma lista que contenha várias informações deste de texto até números
+Cria da mesma forma que uma lista única com "List"
+mudando apenas a informação dentro de <>
+agora coloca-se <dynamic> (dinamica)
+
+
+a lista dynamic é boa pórem puxa mais da máquina necessita mais da máquina, definir como lista única
+muitas vezes deixa a a linguagem muito mais rápida.

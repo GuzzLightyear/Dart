@@ -1,0 +1,33 @@
+Não podemos criar uma função dentro de outra função. a main é uma função que irá executar tudo que tiver 
+dentro e não podemos criar outras funções dentro dela.
+
+Boas práticas:
+    Quando criar uma função definir seu tipo: String(texto); bool (true or false); double(Números com virgula); int(Números inteiros);
+        e na frente começar com Func e depois o que será aquela função:
+            - String funcTexto
+            - bool funcTexto
+            - double funcTexto
+            - int funcTexto
+    obs: Não preciso definir qual o tipo da função,pórem para deixar o código mais rápido se definirmos será melhor.
+
+Depois de definido a função exemplo:
+    
+bool funcEstaMadura(int dias){
+  if(dias>= 30){
+    return true;
+  } else{
+    return false;
+}
+}
+
+toda vez que eu chamar ela seja num print ou como uma outra função
+eu defino o valor desejado dentro do () e ele irá executar separadamente.
+
+nesse caso se eu executar assim:
+    print(funcEstaMadura(20));
+    print(funcEstaMadura(40));
+
+ele irá retornar:
+    
+    false
+    true

@@ -1,0 +1,15 @@
+
+const == constante não muda, então coloca antes de uma varíavel para não haver alteração.
+
+final == ele mantém constante a variavel, funciona da mesma forma que o const pórem ele não precisa ser definido
+            logo no ínicio e pode ser definido depois, pórem uma única vez igual o const.
+
+var == você não precisa definir se será inteiro, fração nada ele vai definir para a gente
+        pórem puxa mais da máquina, então quanto mais definido melhor, mas nem sempre será assim.
+
+Não se usa 
+final & const
+final & var
+const & var
+
+eles trabalham individualmente.

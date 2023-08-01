@@ -1,0 +1,39 @@
+                                    Paradigma: Entendendo Orientação a Objeto
+
+Linguagens: Nascem para resolver problemas especificos
+JAVA - WEB
+DART, KOTLIN - MOBILE
+COBOL - BANCO
+
+O que é o Paradigma:
+- Crença, visão.
+    - Arroz ou feijão por cima?
+
+Paradigmas na programação:
+    - Orientação ao Objeto (Dart uma forma de organizar)
+    - Funcional (JavaS.)
+    - Procedoral (Python)
+    - Concorrente (JAVA)
+
+linguagem sua forma de escrever para resolver os problemas
+Paradigma é uma ideia.
+
+Orientação ao Objeto:
+    - exemplificar com uma casa
+        - Duas casas iguais
+            - Mas posição dos móveis e móveis diferentes.
+Objeto:
+    - Caracterìsticas; (que consiga colcoar cor por exemplo, tamanho, textura)
+    - Ações; ( Que você pode tocar como botão)
+
+Classes
+    - Coloca os mesmos objetos e junta numa classe, king size  e beliche, são camas pórem diferentes
+    - Tapetes de entrada e saída.
+
+Parentesco
+    - Juntar as classes parecidas por exemplo
+
+
+Exemplos:
+ - Frutas [Uva, Laranja, Morango]( A lista são os objeto)
+ (Frutas é a classe) 

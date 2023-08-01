@@ -1,0 +1,22 @@
+Quando não temos certeza quantas repetições vai fazer.
+
+ while(energia>0){
+    print('Mais uma Repetição $energia');
+    energia = energia - 10;
+  }
+
+  quando a condição estiver sendo true ele vai repetir
+
+Tem como fazer com o for tudo que fizer com o while
+pórem é mais fácil utilizar quando não tem certeza de repetições.
+
+do{
+    print('Mais uma repetição');
+    energia = energia - 6;
+}while(energia>0);
+
+o do pode ser adicionado antes do while para contar depois da primeira repetição.
+
+
+Sem 'do' = Conta Antes
+Com 'do' = Conta Depois

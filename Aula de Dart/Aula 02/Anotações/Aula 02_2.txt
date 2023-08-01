@@ -1,0 +1,42 @@
+Quais são os tipos primitivos de variáveis do Dart:
+
+Quando começamos a explorar o Dart, pegamos alguns objetos e estudamos eles um a um. 
+Vimos sobre números e as suas duas formas distintas : int e double , 
+assim como vimos sobre variáveis que 
+indicam o verdadeiro e falso: bool e, 
+por fim, entendemos melhor a utilização de variáveis que aceitam frases escritas: 
+String.
+
+O que são Inteiros (int):
+
+Os números Inteiros são chamados no Dart de int (do inglês, Integer). 
+Sua principal característica é o fato de aceitar apenas números completos 
+(1,2…70000…), sem nenhuma casa decimal após vírgula. Com uma precisão de 2^53 
+(Lê-se: 2 elevado a 53) números, podemos contar até a casa dos zilhões e isso 
+inclui os números negativos também (-1,-2…-70000…).
+
+O que é o double:
+
+Quando falamos de double, temos de incluir os números fracionados 
+(0.5,2.8,...70000.75…). Os double tem uma precisão magnífica e 
+podem estender suas casas decimais em até 53 dígitos (0.1234567…), 
+permitindo a precisão de valores com erro mínimo. Vimos também a 
+importância de escrever um número fracionado com . 
+(ponto) ao invés da , (vírgula) devido ao programa seguir 
+o formato inglês de escrita matemática.
+
+ que é o bool:
+
+O tipo booleano é necessário para definir valores simples de Sim ou Não, 
+indicados pela nomenclatura true ou false. Esse tipo de variável foi criada 
+para facilitar a criação de condições na lógica do nosso programa 
+(veremos mais sobre condições na Aula 4).
+
+O que é uma String:
+
+A variável do tipo String é responsável por alocar/armazenar frases inteiras e 
+complexas, com espaço e símbolos que normalmente o programa não identificaria. 
+Para usá-la, devemos envolver entre aspas o conteúdo escrito desejado (‘frase desejada’). 
+Vimos duas grandes ações que podemos fazer com nossas Strings: Concatenação (‘frase 1’ + ‘frase 2’) 
+e Referenciação (‘ quantos anos ela tem? $idade’). Uma curiosidade: Você pode usar tanto aspas simples ’
+ quanto aspas duplas” para identificar uma String!

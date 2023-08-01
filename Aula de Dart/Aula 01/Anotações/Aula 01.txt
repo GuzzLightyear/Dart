@@ -1,0 +1,16 @@
+Por que usar Dart:
+Conversamos sobre por que escolher o Dart para produção do seu código, 
+assim como quais as vantagens e desvantagens dessa linguagem orientada a objetos. 
+Também entendemos qual sua origem e como ela está sendo utilizado no momento.
+
+Ferramentas para usar o Dart:
+Descobrimos duas ferramentas para poder programar em Dart no nosso computador, 
+o IntelliJ (IDE) e o SDK do Dart. Vimos como instalá-las e usá-las em conjunto
+para criar nosso primeiro projeto em Dart.
+
+Funções Iniciais:
+Em nosso primeiro projeto, nos deparamos com algumas funções já prontas: a função main(){} e a função print(). Discutimos como elas funcionam e qual a importância delas no nosso código.
+Concluímos a Aula 1! Se tiver dúvidas, não deixe de aparecer lá no fórum.
+
+void main() {}
+Tudo que tiver dentro dele, vai ser lido, fora não será executado.

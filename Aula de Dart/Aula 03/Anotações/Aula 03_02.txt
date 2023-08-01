@@ -1,0 +1,50 @@
+O que é e quando utilizar uma Lista em Dart:
+Após aprendermos sobre os tipos de variáveis em Dart, 
+exploramos maneiras práticas, legíveis e eficientes de colecionar objetos. 
+Afinal, haverá momentos em que será necessário armazenar várias informações 
+semelhantes, como diversos nomes, 
+e criar uma variável para cada uma delas torna nosso código menos eficiente.
+
+Uma forma de colecionar esses objetos é por meio das Listas (List<>). 
+Listas são objetos que armazenam vários objetos do mesmo tipo e podem ser 
+acessados por um índice numérico. Portanto, para criar uma lista vazia de Strings, 
+aprendemos que usamos List<String> lista = [], e para acessar o primeiro objeto dessa lista, usamos lista[0].
+
+O que é o tipo dinâmico e quando utilizá-lo com uma Lista:
+Também aprendemos que é possível criar uma lista que não esteja 
+restrita a apenas um tipo de objeto, permitindo receber objetos de diversos tipos, 
+como Strings, Binários, Inteiros e Doubles. Para isso, utilizamos a especificação de 
+tipo dynamic. 
+
+Por exemplo:
+
+List<dynamic> listaDinamica = ["Mulher Maravilha", True, "Batman", False].
+
+
+
+No entanto, é importante lembrar que quando sabemos que uma lista só 
+precisará conter objetos de um único tipo (por exemplo, uma lista de nomes 
+só conterá objetos do tipo String), é altamente recomendado especificar o 
+tipo em vez de usar dynamic, pois isso torna o código mais legível e eficiente.
+
+Analogamente ao dynamic das listas, também podemos usar var ao criar 
+variáveis individuais (não coleções). Por exemplo, var idade = 25; e, 
+com base no valor atribuído, o Dart reconhecerá o tipo da variável.
+ No entanto, assim como o dynamic, essa abordagem é mais custosa para o 
+ Dart e menos legível para outros desenvolvedores que possam utilizar o seu código, 
+ portanto, deve ser usada apenas quando necessário.
+
+A diferença entre os modificadores de imutabilidade const e final:
+Por último, vimos que há situações em que não queremos permitir 
+que o valor de uma variável seja alterado. Para isso, adicionamos o modificador 
+const antes da especificação do tipo na linha de declaração da variável. 
+Por exemplo, const String nome = "Gustavo Milioni".
+
+Como o const modifica um trecho do código, tornando-o imutável e constante, 
+algo que não muda, chamamos o const de modificador de imutabilidade. 
+Esses modificadores são como etiquetas que dizem: "não altere isso, está tudo bem como está".
+
+Outro modificador de imutabilidade é o final, que desempenha o mesmo papel de 
+proibir alterações na variável, porém permite que a inicialização ocorra fora da 
+linha de declaração. Em resumo, const exige que a variável seja inicializada durante a 
+declaração, enquanto final permite que a inicialização ocorra posteriormente.

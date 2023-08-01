@@ -1,0 +1,8 @@
+Comentário //
+Comentário de Documentação ///
+
+Multilinhas de Comentário /* */
+Multilinhas de Comentário de Documentação /** **/
+
+Usar a Documentação do próprio site do dart dev, é recomendado para ajudar
+a aprender novos comandos.

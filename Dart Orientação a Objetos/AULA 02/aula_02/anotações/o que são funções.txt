@@ -1,0 +1,60 @@
+O que são funções:
+    - print()
+        - Ele imprime no terminal 
+        - Apenas usamos ela, não inclementamos. (Ou seja, já tem no dart, diferente do main que temos que colocar
+        e explicar o que tem que executar)
+    
+    - main(){}
+        - Essa nós criamos para o Dart usar 
+        - É onde colocamos
+        - A gente implementa tudo que tiver dentro será executado pelo dart
+    
+    - stdin.readLineSync()
+        - Lê informações do teclado no terminal
+        - pega informações do teclado e use como String.
+
+Funções: (Caixa pretas)
+    - Criado para:
+        - Facilitar
+        - Repetir
+        - Automatizar
+        - Ser fácil de configurar
+        - Não sabemos como funciona por dentro, apenas damos algo de inicio e vemos o final.
+            - Exemplo:
+                Máquina de suco de laranja
+                    -   Entra a fruta laranja sai suco de laranja
+                - Trazendo para programação:
+                    - String fruta (Laranja);
+                    - print('Suco de $fruta')
+                    - Terminal: 'Suco de Laranja'      
+    
+    - Modularização:
+        - Para quê criamos funções?
+            - Centralizar o código que vai se Repetir
+                - DRY: Don't Repeat Yourself ( Evite repetir código)
+                    - Se tem algum código que vai se repetir muitas vezes, modulariza(isola) ele e chama quando for usar
+        
+        - Torna a programação mais produtiva:
+            - Crie e use suas caixas pretas.
+        
+        - Facilitar a manutenção
+            - Imagina fazer um código que se repita muitas vezes exemplo 50 vezes.
+                Futuramente ve quem tem um problema, até localizar as 50 vezes que você utilizo
+                se torna díficil e repetitivo
+                    - Agora se você isola ele, e apenas chama quando necessário, quando
+                    tiver o mesmo problema e precisar corrigir, você apenas corrigi na 'Caixa preta'
+                    onde ele esta localizado apenas uma vez, e a correção será realizada em todos os outros lugares
+                    que ali foi chamado.
+        
+    Exemplo de caixa preta:
+        if (idade>=18){
+            return true;
+        }else{
+            return false:
+        }
+    (O código vai ver verificar a idade e se for maior ou igual a 18 vai retornar verdade.
+    Caso idade for menor de 18 será retornada falso.
+    Então se for chamado num comando para verificação de idade, várias vezes, você não precisa repetir e
+    correr o risco até mesmo de errar algo, apenas criando essa caixa preta, toda vez que você informar a idade ele
+    automaticamente irá fazer esse processo e retornar o resultado para você, simplicando e reduzindo as repetições do
+    mesmo comando.)

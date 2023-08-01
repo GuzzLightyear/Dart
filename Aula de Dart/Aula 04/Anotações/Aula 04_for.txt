@@ -1,0 +1,13 @@
+Comando For
+uma forma de loop.
+
+for(condição){ação}
+
+for(int i = 0; i<5; i++){}             
+// int i = 0 criei uma variável chamada i que vai ser o contator,
+// i < 5 ele vai repetir 4 vezes
+// i ++  toda vez que acabar o código ele vai somar mais um, contando de um em um
+
+ As condições apenas vale se for true or false
+  Não podemos colocar números, inteiros, fracionados e strings apenas condições booleanas.
+  Ele só executa quando estiver sendo verdadeiro a condição quando for falso ele para.
